@@ -1,0 +1,192 @@
+  body{
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  
+  /* ---------Navigation bar styles-------------------- */
+
+.stunninglogo img{
+  height: 51px;
+  margin-left: 63px;
+}
+
+.navmenuitems{
+  text-align: center;
+  margin: -49px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+.itemslist{
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.navlist{
+  margin: 2px 30px;
+}
+
+.navlist::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #8071D0;
+  transition: 0.4s
+}
+
+.navlist:hover::after {
+  width: 100%
+}
+
+.youraccountbutton{
+  text-align: right;
+    margin-right: 48px;
+}
+
+.accountbtn{
+  border: none;
+  border-radius: 17px;
+  font-weight: bold;
+  color: #A389CC;
+  background-color: #FFD8DB;
+  padding: 15px 15px;
+}
+
+ /* -----------Left body styles-------------- */
+
+.bodyheader{
+  font-size: 62px;
+}
+
+.leftsidebody{
+  margin-left: 125px;
+  width: 50%;
+  float: left;
+}
+
+.fullstop{
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  margin-top: -26px;
+  margin-left: 298px;
+}
+
+.bodypara{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: gray;
+}
+
+.accountbtnnew{
+  border: none;
+  border-radius: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color:#5243C0;
+  padding: 15px 15px;
+  margin-top: 20px;
+}
+
+.uparrow{
+  margin-top: -52px;
+  margin-left: 129px;
+}
+
+.downarrow{
+  margin-top: -63px;
+  margin-left: 211px;
+}
+
+.listofcheckbox{
+  list-style-type: none;
+  display: flex;
+  padding: 17px;
+  width: 48%;
+}
+
+.colorcode{
+  width: 23px;
+  height: 9px;
+  background-color: #FED7DA;
+  margin-left: 22px;
+  padding: 3px;
+  margin-top: 2px;
+  border-radius: 39px;
+
+}
+
+.clrred{
+  background-color: #FD6534;
+}
+
+.clrgreen{
+  background-color: #9ED095;
+}
+
+.clryellow{
+  background-color: #FFE4A0;
+}
+
+.list{
+  margin-left: 15px;
+}
+
+.tickicons{
+  height: 22px;
+
+}
+
+.usericons{
+  margin-top: -6px;
+  margin-left: 56px;
+  height: 26px;
+
+}
+
+.activelist{
+ background: white;
+ border-radius: 15px;
+ box-shadow: 3px 21px 9px rgba(225,225,225,0.2), 10px 18px 22px rgba(0,0,0,0.1);
+
+}
+
+.details{
+  display: flex;
+}
+
+.activedetails{
+  margin-left: -22px;
+  display: flex;
+}
+
+.thirddetail{
+  margin-left: 9px;
+}
+
+.fourthdetail{
+  margin-left: 26px;
+}
+
+
+
+
+
+
+/* -----------Right body styles-------------- */
+.rightbody{
+  width: 50%;
+  float: right;
+}
+
+.landingsectionimage{
+  margin-top: -549px;
+  width: 84%;
+}
