@@ -151,13 +151,6 @@
 
 }
 
-.activelist{
- background: white;
- border-radius: 15px;
- box-shadow: 3px 21px 9px rgba(225,225,225,0.2), 10px 18px 22px rgba(0,0,0,0.1);
-
-}
-
 .details{
   display: flex;
 }
@@ -176,7 +169,12 @@
 }
 
 
-
+.listofcheckbox:hover{
+  transform: scale(1.1);
+  background: white;
+  border-radius: 15px;
+  box-shadow: 3px 21px 9px rgba(225,225,225,0.2), 10px 18px 22px rgba(0,0,0,0.1);
+}
 
 
 
